@@ -76,7 +76,7 @@ p {font-size: 110%;}
 }
 
 #myBtn2 {
-  /* display: none; */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 10px;
