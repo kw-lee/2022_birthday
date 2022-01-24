@@ -94,10 +94,10 @@ p {font-size: 110%;}
   border-radius: 4px;
 }
 
-#myBtn:hover {
+#myBtn:hover, #myBtn:active{
     background-color: #555;
 }
-#myBtn2:hover {
+#myBtn2:hover, #myBtn2:active{
   background-color: #555;
 }
 
