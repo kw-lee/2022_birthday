@@ -94,7 +94,7 @@ p {font-size: 110%;}
   border-radius: 4px;
 }
 
-#myBtn:hover{
+/* #myBtn:hover{
     background-color: #555;
 }
 #myBtn2:hover{
@@ -106,7 +106,7 @@ p {font-size: 110%;}
 }
 #myBtn2:active{
 background-color: crimson;
-}
+} */
 
 .themed {
   display: block;
