@@ -63,7 +63,7 @@ p {font-size: 110%;}
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
+    right: 50px;
     z-index: 99;
     font-size: 14px;
     border: none;
@@ -75,8 +75,27 @@ p {font-size: 110%;}
     border-radius: 4px;
 }
 
+#myBtn2 {
+  /* display: none; */
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
 #myBtn:hover {
     background-color: #555;
+}
+#myBtn2:hover {
+  background-color: #555;
 }
 
 .themed {
@@ -101,6 +120,10 @@ p {font-size: 110%;}
 
   #myBtn {
     background-color: rgb(188, 188, 241);
+    color: black;
+  }
+  #myBtn2 {
+    background-color: rgb(241, 188, 188);
     color: black;
   }
   .question {color:rgb(188, 188, 241);
