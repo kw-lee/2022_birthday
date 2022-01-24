@@ -78,3 +78,35 @@ p {font-size: 110%;}
 #myBtn:hover {
     background-color: #555;
 }
+
+.themed {
+  display: block;
+  background: white;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: rgb(40, 40, 40);
+    color: white;
+  }
+  body {
+    background: rgb(40, 40, 40);
+    color: white;
+  }
+  .themed {
+    background: rgb(40, 40, 40);
+    color: white;
+  }
+
+  #myBtn {
+    background-color: rgb(188, 188, 241);
+    color: black;
+  }
+  .question {color:rgb(188, 188, 241);
+  }
+
+  a {
+    color: rgb(188, 188, 241);
+  }
+}
