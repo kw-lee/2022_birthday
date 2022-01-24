@@ -94,11 +94,18 @@ p {font-size: 110%;}
   border-radius: 4px;
 }
 
-#myBtn:hover, #myBtn:active{
+#myBtn:hover{
     background-color: #555;
 }
-#myBtn2:hover, #myBtn2:active{
+#myBtn2:hover{
   background-color: #555;
+}
+
+#myBtn:active{
+  background-color: navy;
+}
+#myBtn2:active{
+background-color: crimson;
 }
 
 .themed {
