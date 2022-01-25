@@ -66,7 +66,7 @@ p {font-size: 110%;}
 .headwrap {
   height: 50px;
   color: black;
-  background: ivory;
+  background: rgb(240, 240, 240);
   font-weight: bold;
   display: flex;
   justify-content: space-between;
