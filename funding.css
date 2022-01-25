@@ -9,6 +9,7 @@
 body {
   margin: auto;
   padding: 15px;
+  padding-top: 50px;
   max-width: 720px;
   font-family : 'NanumSquareRound', 'sans-serif';
   line-height: 150%;
@@ -62,37 +63,73 @@ p {font-size: 110%;}
   bottom: 2rem;
 }
 
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    z-index: 99;
-    font-size: 14px;
-    border: none;
-    outline: none;
-    background-color: navy;
-    color: white;
-    cursor: pointer;
-    padding: 5px;
-    border-radius: 4px;
+.headwrap {
+  height: 50px;
+  color: black;
+  background: ivory;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: auto;
+  align-items: center;
 }
 
-#myBtn2 {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  z-index: 99;
-  font-size: 14px;
-  border: none;
-  outline: none;
-  background-color: crimson;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 4px;
+.headwrap a {
+  color: black;
 }
+
+.navbar {
+  margin-top: 20px;
+	width: 100%;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 15px; 
+}
+
+.navbar ul li {
+  /* float it to have no issues with whitespace between inline-blocks */
+	float: left;
+	padding: 15px;
+  font-size: 16px;
+	font-weight: bold;
+  text-align: center;
+  /* total width 100% / 5 elements */
+  width: 25%;
+}
+
+
+/* No left border for the first one */
+.navbar ul li:first-child {
+  border-left: none;
+}
+
+/* No right border for the last one */
+.navbar ul li:last-child {
+  border-right: none;
+}
+
+/* http://stackoverflow.com/questions/14973317/understanding-bootstraps-clearfix-class */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 
 /* #myBtn:hover{
     background-color: #555;
@@ -128,18 +165,19 @@ background-color: crimson;
     color: white;
   }
 
-  #myBtn {
-    background-color: rgb(188, 188, 241);
-    color: black;
-  }
-  #myBtn2 {
-    background-color: rgb(241, 188, 188);
-    color: black;
-  }
   .question {color:rgb(188, 188, 241);
   }
 
   a {
     color: rgb(188, 188, 241);
+  }
+
+  .headwrap {
+    color: white;
+    background: black;
+  }
+  
+  .headwrap a {
+    color: white;
   }
 }
