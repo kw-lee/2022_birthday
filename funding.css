@@ -130,6 +130,12 @@ p {font-size: 110%;}
   clear: both;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
 
 /* #myBtn:hover{
     background-color: #555;
